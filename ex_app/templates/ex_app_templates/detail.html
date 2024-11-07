@@ -1,0 +1,8 @@
+{% if item %}
+    <h1>{{ item.item_name }}</h1>
+    <h2>{{ item.item_desc }}</h2>
+    <h3>{{ item.item_price }}</h3>
+{% else %}
+    <p>No item found.</p>
+{% endif %}
+
